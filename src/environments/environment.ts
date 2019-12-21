@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  clientId: 'xGZxEAJhzlkuQUlWl90y1ntIX-0UDWHx',
+  OPServer: 'https://kdhttps.auth0.com',
+  redirectURL: 'http://localhost:4200/callback',
+  scope: 'openid email profile',
+  userInfoEndpoint: '/userinfo'
 };
 
 /*
