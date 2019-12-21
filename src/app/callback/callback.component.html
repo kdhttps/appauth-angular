@@ -1,0 +1,12 @@
+<div class="container-fluid" style="margin-top: 10px;">
+  <div class="card">
+    <div class="card-body bg-danger" *ngIf="!code">
+      <div class="card-body">
+        <p class="card-text">{{error}}</p>
+      </div>
+    </div>
+    <div class="card-body" *ngIf="code">
+      <h5 class="card-title">Loading...</h5>
+    </div>
+  </div>
+</div>
