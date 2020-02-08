@@ -6,7 +6,8 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Prerequisites
 
 1. Node JS >= 10.x.x
-1. Auth0 client - Currently for I am using auth0.com as a OP Server. Demo should work with every OP Provider. 
+2. @angular/cli >= 8.3.21
+3. Auth0 client - Currently for I am using auth0.com as a OP Server. Demo should work with every OP Provider. 
 
 ## Configuration
 
@@ -21,3 +22,8 @@ npm install
 ```
 
 2. Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+
+# Usage
+
+## Get the authorization url and redirect
+
