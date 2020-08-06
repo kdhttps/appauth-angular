@@ -3,6 +3,8 @@
 [App-Auth JS](https://github.com/openid/AppAuth-JS) integration with the Angular App.
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.20.
 
+![angular-flow](./src/assets/angular-flow.gif)
+
 ## Prerequisites
 
 1. Node JS >= 10.x.x
